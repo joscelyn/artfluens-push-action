@@ -7,6 +7,9 @@ echo "$(git remote -v)"
 echo "git remote add main ssh://$1@$2$3"
 git remote add main ssh://$1@$2$3
 
+echo "dsqhidqsgyudqsyu"
+echo "$4"
+echo "dsqhidqsgyudqsyu2"
 echo $4 >> "/key.pem"
 git add .
 git commit -m "minor commit"
