@@ -8,6 +8,4 @@ git config user.name "artfluens"
 git config user.email "contact@artfluens.com"
 git config core.sshCommand "ssh -i /key.pem -F /dev/null"
 
-git add .
-git commit -m "minor commit"
-# git push main master
+git push main master
