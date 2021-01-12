@@ -1,8 +1,17 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:
-    description: 'Who to greet'
+  username:
+    description: 'Repo username'
+    required: true
+  host:
+    description: 'Repo host'
+    required: true
+  path:
+    description: 'Repo path'
+    required: true
+  key:
+    description: 'Repo key'
     required: true
 
 runs:
