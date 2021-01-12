@@ -2,10 +2,7 @@
 
 echo "$4" >> "/key.pem"
 
-x=$(tail -n+3 /key.pem | head -1)
-tail -n+3 /key.pem | head -1
-echo $x
-echo "${x: -3}${x: -2}${x: -1}"
+echo "$(ls -la ~/.ssh/)"
 
 
 # git remote add main ssh://$1@$2$3
