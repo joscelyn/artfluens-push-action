@@ -3,6 +3,9 @@
 echo "$4" >> "/private_key"
 chmod 400 "/private_key"
 
+git remote add origin https://github.com/joscelyn/artfluens-admin.git
+git fetch --unshallow origin
+
 git remote add main ssh://$1@$2$3
 
 git config user.name "artfluens"
