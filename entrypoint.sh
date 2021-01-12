@@ -2,7 +2,7 @@
 
 echo $4 >> "/key.pem"
 
-x=$(sed -n -e 3 /key.pem)
+x=$(awk 'NR==3{print}' /key.pem)
 echo $x
 echo "${x: -3}${x: -2}${x: -1}"
 
