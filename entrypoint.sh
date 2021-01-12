@@ -9,4 +9,4 @@ git config user.name "artfluens"
 git config user.email "contact@artfluens.com"
 git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i /private_key"
 
-git push main master
+git push main HEAD
