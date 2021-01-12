@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM alpine/git
 
 COPY entrypoint.sh /entrypoint.sh
 
