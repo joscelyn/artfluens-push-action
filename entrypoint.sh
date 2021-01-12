@@ -4,7 +4,6 @@ echo "$4" >> "/key.pem"
 
 echo "$(ls -la ~/.ssh/)"
 
-
 # git remote add main ssh://$1@$2$3
 
 
