@@ -9,4 +9,4 @@ git config user.name "artfluens"
 git config user.email "contact@artfluens.com"
 git config core.sshCommand "ssh -o StrictHostKeyChecking=no -v -i /artfluens-ecdsa"
 
-git push main master --force
+git push main master
