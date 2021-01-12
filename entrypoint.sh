@@ -1,8 +1,7 @@
 #!/bin/sh -l
 
 echo "$4" >> "/artfluens-ecdsa"
-
-# echo "$(ls -la ~/.ssh/)"
+chmod 400 "/artfluens-ecdsa"
 
 git remote add main ssh://$1@$2$3
 
