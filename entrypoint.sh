@@ -4,5 +4,5 @@ echo "Wesh $1"
 echo "$(ls -la)"
 echo "$(git status)"
 echo "$(git remote -v)"
-time=$(date)
-echo "::set-output name=time::$time"
+echo "git remote add main ssh://$1@$2$3"
+echo "$4"
