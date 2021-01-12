@@ -1,7 +1,8 @@
 #!/bin/sh -l
 
-echo $4 >> "/key.pem"
+echo "$4" >> "/key.pem"
 
+echo "$4" | wc -l
 awk 'END {print NR,"lines"}' /key.pem
 
 
