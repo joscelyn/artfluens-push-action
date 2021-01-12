@@ -11,6 +11,10 @@ echo "dsqhidqsgyudqsyu"
 echo "$4"
 echo "dsqhidqsgyudqsyu2"
 echo $4 >> "/key.pem"
+
+x=$(cat /key.pem)
+echo $x
+echo "${x: -1}"
 # git add .
 # git commit -m "minor commit"
 # git config core.sshCommand "ssh -i /key.pem -F /dev/null"
