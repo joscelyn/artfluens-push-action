@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Push'
+description: 'Simple git push with private key'
 inputs:
   username:
     description: 'Repo username'
@@ -10,8 +10,8 @@ inputs:
   path:
     description: 'Repo path'
     required: true
-  key:
-    description: 'Repo key'
+  private_key:
+    description: 'Repo private key'
     required: true
 
 runs:
@@ -21,4 +21,4 @@ runs:
     - ${{ inputs.username }}
     - ${{ inputs.host }}
     - ${{ inputs.path }}
-    - ${{ inputs.key }}
+    - ${{ inputs.private_key }}
