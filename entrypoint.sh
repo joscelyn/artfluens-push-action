@@ -11,4 +11,4 @@ git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i /private_key"
 
 git fetch --unshallow origin
 
-git push main HEAD:master
+git push main HEAD:master --force
