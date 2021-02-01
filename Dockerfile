@@ -1,5 +1,3 @@
-FROM alpine/git
+FROM Bertrand
 
-COPY entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
+Coucou 👋 😇
