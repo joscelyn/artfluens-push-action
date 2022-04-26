@@ -8,7 +8,7 @@ git remote add main ssh://$1@$2$3
 git config user.name "artfluens"
 git config user.email "contact@artfluens.com"
 git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i /private_key"
-git config --global --add safe.directory /github/workspace
+git config --global --add safe.directory “$GITHUB_WORKSPACE”
 
 git fetch --unshallow origin
 
